@@ -1,22 +1,38 @@
 .container {
     width: 75%;
-    border: solid;
+    margin: auto;
 }
 
 .card-container {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     align-content: center;
 }
 
-.image {
-    width: 20%;
+.image-container {
+    width: 25%;
+}
+
+.text-container {
+    width: 75%;
     border: solid;
 }
 
-.text {
-    width: 75%;
+#article-source {
     border: solid;
+}
+
+#article-title {
+    border: solid;
+}
+
+#article-description {
+    border: solid;
+}
+
+.article-footer {
+    border: solid;
+    align-items: flex-end;
 }

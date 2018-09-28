@@ -1,0 +1,22 @@
+.container {
+    width: 75%;
+    border: solid;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.image {
+    width: 20%;
+    border: solid;
+}
+
+.text {
+    width: 75%;
+    border: solid;
+}
